@@ -1,6 +1,7 @@
 import axios from "axios"
 
-const baseURL = 'http://localhost:4001/api/'
+// const baseURL = 'http://localhost:4001/api/'
+const baseURL = 'https://instabackend-yhzy.onrender.com/api/'
 
 let apiObj = {
      userSignUp : (data, headers) => {
